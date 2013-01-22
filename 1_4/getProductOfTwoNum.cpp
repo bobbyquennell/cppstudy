@@ -9,6 +9,13 @@ int main()
     int v1, v2;
     std ::cout << "please input two numbers " << std::endl;
     std ::cin >> v1 >> v2;
-    std ::cout <<"the product of " << v1 << " and " << v2 << " is " << v1*v2 << std::endl;
+    std ::cout <<"the product of " << v1 << " and " << v2 
+               << " is " << v1*v2 << std::endl;
+     /* 
+     * When writing a C++ program, in most places that a space appears we could instead
+     * use a newline. One exception to this rule is that spaces inside a string literal cannot be
+     * replaced by a newline. Another exception is that spaces are not allowed inside preprocessor
+     * directives.
+     */
     return;
 }
