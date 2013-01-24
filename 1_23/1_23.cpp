@@ -6,9 +6,19 @@ sum of all the transactions that were read.
 
 int main()
 {
+#if 0
     Sales_item item1, item2, item3;
     std::cout << "input 3 sales transactions " << std::endl;
     std::cin >> item1 >> item2 >> item3;
     std::cout << item1 + item2 + item3 << std::endl;
+#endif
+    Sales_item InputItem, Sum;
+    std::cout << "input several sales transactions" << std::endl;
+    while (std::cin >> InputItem)
+    {
+        Sum += InputItem; //???Sum hasn't been initialized??
+    }
+    std::cout << Sum << std::endl;
+    
     return;
 }
