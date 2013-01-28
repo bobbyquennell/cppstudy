@@ -17,7 +17,13 @@
 using std::cout;
 using std::cin;
 using std::endl;
+<<<<<<< HEAD
 
+=======
+/*
+ * 
+ */
+>>>>>>> 9a3e64d51b027daedcb7b37b29a5de6731624fc0
 int main() {
     int base, exponent, result, loop;
     cout << "please give me a base value: " << endl;
