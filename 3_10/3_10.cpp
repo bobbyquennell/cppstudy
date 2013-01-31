@@ -13,6 +13,7 @@
 #include<string>
 #include<cctype>
 using std::string;
+using std::getline;
 using std::cin;
 using std::cout;
 using std::endl;
@@ -24,7 +25,7 @@ using std::endl;
 int main(int argc, char** argv) {
     string s1;
     cout << "please input a string with some punctuation" << endl;
-    std::getline(cin, s1);
+    getline(cin, s1);
     cout << s1 << endl;
    cout << "now ,we will delete all punctuation in the string" << endl;
    for(string::size_type i =0; i < s1.size(); i++)
